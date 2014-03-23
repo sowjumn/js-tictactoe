@@ -13,7 +13,7 @@ var Game = {
     var cell6 = new TicTacToe.Models.Cell();
     var cell7 = new TicTacToe.Models.Cell();
     var cell8 = new TicTacToe.Models.Cell();
-    var row2 = new TicTacToe.Collections.Row([cell4,cell5,cell6]);
+    var row2 = new TicTacToe.Collections.Row([cell6,cell7,cell8]);
 
     var rows = [row0,row1,row2];
     

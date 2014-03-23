@@ -1,7 +1,7 @@
 TicTacToe.Models.Cell = Backbone.Model.extend({
 
   defaults: {
-    value: ' '
+    value: 'Click'
   },
   
   setValue: function() {
