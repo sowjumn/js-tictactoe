@@ -12,8 +12,9 @@ var Game = {
     var cells = [cell0,cell1,cell2,cell3,cell4,cell5,cell6,cell7];
 
     var board = new TicTacToe.Collections.Board(cells);
+    console.log(board.length);
     var boardView = new TicTacToe.Views.BoardView({collection: board});
     boardView.render();
-    $('main-container').html(boardView.el);
+    $('.main-container').html(boardView.el);
   }
 }

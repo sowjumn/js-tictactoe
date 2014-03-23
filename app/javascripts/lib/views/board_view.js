@@ -1,6 +1,6 @@
 TicTacToe.Views.BoardView = Backbone.View.extend({
-  tagName: 'main-container',
-  
+  className: 'board',
+
   render: function() {
     this.collection.forEach(this.addOne, this)
   },
